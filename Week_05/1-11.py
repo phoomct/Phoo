@@ -47,7 +47,6 @@ def question_8():
   print("%.2f" %(data1 * data2 * data3 * data4 / data1 + data2 + data3 + data4))
 #question_8()
 
-
 def question_11_1():
   import math as m
   v = float(input("v = ")); c = float(input("c = ")); seta = float(input("θ = ")); psi = float(input("	Ψ = "))
