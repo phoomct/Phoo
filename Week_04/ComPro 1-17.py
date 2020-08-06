@@ -149,4 +149,3 @@ def question_17():
     d = 150 / o
     #print(af+"KAk") #Name error
 question_17()
-
