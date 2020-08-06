@@ -1,7 +1,7 @@
 def question_1():
   import math as m
   print(m.pow(float(input()),2))
-#question_1()
+question_1()
 
 def question_2():
   print("%.2f"%(float(input()) / float(input())))
@@ -52,13 +52,9 @@ def question_11_1():
   import math as m
   v = float(input("v = ")); c = float(input("c = ")); seta = float(input("θ = ")); psi = float(input("	Ψ = "))
   print(m.sqrt(1 - ((v ** 2) / (c ** 2))) / m.sin(seta + psi))
-question_11_1()
+#question_11_1()
 
 def question_11_2():
   x = float(input("x = ")) ; y = float(input("y = "))
   print(((x + (2 * y) - 7) ** 2) + ((2 * x) + y - 5) ** 2)
 #question_11_2()
-
-
-
-
