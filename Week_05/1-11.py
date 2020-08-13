@@ -49,7 +49,7 @@ def question_8():
 
 def question_11_1():
   import math as m
-  v = float(input("v = ")); c = float(input("c = ")); seta = float(input("θ = ")); psi = float(input("	Ψ = "))
+  v = float(input("v = ")); c = float(input("c = ")); seta = float(input("θ = ")); psi = float(input("Ψ = "))
   print(m.sqrt(1 - ((v ** 2) / (c ** 2))) / m.sin(seta + psi))
 #question_11_1()
 
