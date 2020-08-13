@@ -29,8 +29,7 @@ def question_4(a):
 question_4(3)
 
 def question_5():
-    a = "'10/2 = 5'"+'\n"21 - 20 = 1"' + "\n\who" + "\gre " + "\You"
-    print(a.replace("g","a"))
+    print("'10/2 = 5'"+'\n"21 - 20 = 1"' + "\n\who" + "\\are " + "\You")
 question_5()
 
 def question_6():
