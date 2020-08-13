@@ -1,7 +1,7 @@
 def question_1():
   import math as m
   print(m.pow(float(input()),2))
-question_1()
+#question_1()
 
 def question_2():
   print("%.2f"%(float(input()) / float(input())))
@@ -27,17 +27,17 @@ def question_5():
 def question_6():
   import math
   print(math.ceil((abs(-25.13))))
-  print(math.log2(25864))
+  print(math.floor(math.log2(25864)))
   print(math.sqrt(abs(math.tan(315))))
   print(math.sqrt(abs(math.sin(60))))
   print(math.sqrt(abs(math.cos(90))))
 #question_6()
 
 def question_7():
-  data = "{:.2f}".format(float(input()))
-  data2 = "{:.2f}".format(float(input()))
-  print(data2)
-#question_7()
+  data = float("{:.2f}".format(float(input())))
+  data2 = float("{:.2f}".format(float(input())))
+  print("%.2f" %((data2 - data) ** 2))
+question_7()
 
 def question_8():
   data1 = float("{:.2f}".format(float(input())))
