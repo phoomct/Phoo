@@ -165,7 +165,7 @@ def stop_sign():
     color("white")
     write("STOP",True,align="center",font=("Arial",40,"normal"))
     done()
-stop_sign()
+#stop_sign()
 
 
 def star():
@@ -208,7 +208,7 @@ def heart():
     forward(100)
     dot(10,"blue")
     done()
-heart()
+#heart()
 
 
 
