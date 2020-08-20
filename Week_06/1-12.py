@@ -15,7 +15,7 @@ def rectangle():
         left(90)
         forward(100)
         left(90)
-rectangle()
+#rectangle()
 
 def diamond():
     right(45)
@@ -165,7 +165,7 @@ def stop_sign():
     color("white")
     write("STOP",True,align="center",font=("Arial",40,"normal"))
     done()
-#stop_sign()
+stop_sign()
 
 
 def star():
@@ -177,31 +177,20 @@ def star():
         dot(10,"red")
         right(120)
     done()
-star()
+#star()
 
 def heart():
     penup()
     goto(-200,100)
     left(60)
     pendown()
-    forward(50)
-    dot(10,"blue")
-    right(120)
-    forward(50)
-    dot(10,"blue")
-    left(120)
-    forward(50)
-    dot(10,"blue")
-    right(120)
-    forward(50)
-    dot(10,"blue")
-    left(120)
-    forward(50)
-    dot(10,"blue")
-    right(120)
-    forward(50)
-    dot(10,"blue")
-    left(120)
+    for i in range(0,3):
+        forward(50)
+        dot(10,"blue")
+        right(120)
+        forward(50)
+        dot(10,"blue")
+        left(120)
     forward(50)
     dot(10,"blue")
     right(120)
@@ -219,7 +208,7 @@ def heart():
     forward(100)
     dot(10,"blue")
     done()
-#heart()
+heart()
 
 
 
