@@ -43,7 +43,7 @@ def circle_but_user_input():
     pendown()
     circle(radius)
     done()
-#circle_but_user_input()
+circle_but_user_input()
 
 def circle_but_fill():
     penup()
