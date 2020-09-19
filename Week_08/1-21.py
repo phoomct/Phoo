@@ -213,7 +213,7 @@ def question_21():
     number = []
     for i in range(0,4):
         number.append(int(input()))
-    total = number[0] * number[1] * number[2] * number[3]
+    total = number[0]  * number[1] * number[2]  * number[3]
     for i in range(1,total):
         if total % i == 0 and i % number[0] == 0 and i % number[1] == 0 and i % number[2] == 0 and i % number[3] == 0:
             print(i)
